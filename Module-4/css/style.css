@@ -4,7 +4,74 @@
     padding: 0;
     box-sizing: border-box;
 }
-.text-wrapper {
+.wrapper { 
+/* background:linear-gradient(blue, green); */
+background: linear-gradient(to left, red, yellow, green);
+min-height: 100vh;
+padding: 30px 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* }
+.title::before{
+    content: '\2603';
+    font-size: 60px;
+} */
+.title::first-letter {
+    font-size: 50px;
+   color:red;
+}
+.title::after{
+    content: '\2603';
+}
+.title{
+    color: #eaeaea;
+    text-transform: uppercase;
+    margin: 0.8em;
+}
+
+.text {
+    font-size: 20px;
+    color: hsl(32, 87%, 40%);
+    background: rgba(200, 103, 156, 0.4);
+    padding: 50px;
+    
+}
+.text::first-line{
+    color: lightskyblue;
+}
+.text::selection {
+    background: yellow;
+}
+
+.krasiviu{
+    float: right;
+    margin: 20px 20px;
+    border-radius: 50%;
+}
+.list{
+    padding: 40px;
+    background: indianred;
+}
+.item{
+    width: 33.33333%;
+    border: 1px solid green;
+    background: #000000;
+    height: 250px;
+    float: left;
+}
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+/* .text-wrapper {
     margin: 0 auto;
     background: purple;
     color: #ffffff;
@@ -54,4 +121,4 @@ text-align: center;
     }
     .slide-3{
         background-image: url(https://usatunofficial.files.wordpress.com/2012/03/canadian_rockies_beauty_wallpaper_g7zor.jpg);
-    }
+    } */
