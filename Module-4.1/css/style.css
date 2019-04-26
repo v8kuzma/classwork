@@ -1,0 +1,131 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper { 
+/* background:linear-gradient(blue, green); */
+background: linear-gradient(to left, red, yellow, green);
+min-height: 100vh;
+padding: 30px 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* }
+.title::before{
+    content: '\2603';
+    font-size: 60px;
+} */
+.title::first-letter {
+    font-size: 50px;
+   color:red;
+}
+.title::after{
+    content: '\2603';
+}
+.title{
+    color: #eaeaea;
+    text-transform: uppercase;
+    margin: 0.8em;
+}
+
+.text {
+    font-size: 20px;
+    color: hsl(32, 87%, 40%);
+    background: rgba(200, 103, 156, 0.4);
+    padding: 50px;
+    
+}
+.text::first-line{
+    color: lightskyblue;
+}
+.text::selection {
+    background: yellow;
+}
+
+.krasiviu{
+    float: right;
+    margin: 20px 20px;
+    border-radius: 50%;
+}
+.list{
+    padding: 40px;
+    background: indianred;
+    text-align: center;
+}
+.item{
+    width: 25%;
+    border: 1px solid green;
+    /* background: #000000; */
+    height: 250px;
+    float: left;
+}
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+
+
+}
+
+/* .text-wrapper {
+    margin: 0 auto;
+    background: purple;
+    color: #ffffff;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-size: 30px;
+    text-indent: 25px;
+    line-height: 1.5;
+    
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.text{
+    margin-top: 80px;
+}
+    .square{
+        width: 200px;
+        display: inline-block;
+        height: 200px;
+        background:url(../img/Mr_beans_holiday_ver2.jpg);
+        background-size: 50px;
+        background-repeat:no-repeat;
+        background-position: center center;
+    }
+    .square-list{
+text-align: center;
+    }
+    body{
+        font-family: 'Cute Font', cursive;
+    }
+    .slide{
+        height: 100vh;
+        background-attachment: fixed;
+        /* border-style: cover; */
+    background-size: contain;
+    }
+    .slide-1{
+        background-image: url(https://cdn.guidingtech.com/media/assets/WordPress-Import/2017/06/img-12.jpg);
+    }
+    .slide-2{
+        background-image: url(https://imgnooz.com/sites/default/files/wallpaper/nature/60900/beautiful-summer-wallpapers-60900-5295241.jpg);
+    }
+    .slide-3{
+        background-image: url(https://usatunofficial.files.wordpress.com/2012/03/canadian_rockies_beauty_wallpaper_g7zor.jpg);
+    } */
